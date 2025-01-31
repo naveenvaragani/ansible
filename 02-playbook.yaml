@@ -1,0 +1,6 @@
+- name: PING 
+  hosts: web
+  tasks: #task=module=collection
+  - name: print hello world
+    ansible.builtin.debug:
+     msg: "Hello world"
